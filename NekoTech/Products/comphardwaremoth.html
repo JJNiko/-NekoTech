@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>NekoTech Computers</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+    <link rel="stylesheet" href="transision.css">
+    <link rel="stylesheet" href="../cssSL/style.css">
+    <link rel="stylesheet" href="../cssSL/Circle.css">
+    <link rel="stylesheet" href="../cssSL/slides.css">
+    <link rel="stylesheet" href="../cssSL/slideshow.css">
+    <link rel="stylesheet" href="../cssSL/Layout.css">
+    <link rel="stylesheet" href="../cssSL/transision.css">
+    <link rel="stylesheet" href="../cssSL/up.css">
+    <script src="../jscl/Sliderjs.js" defer></script>
+    <script src="../jscl/Sliding.js" defer></script>
+  </head>
+  <body>
+    <div class="loader loader--active">
+      <div class="loader__icon">
+        <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+          <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+          <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+          <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+        </svg>
+      </div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+    </div>
+    <div id="container">
+      <div class="wrapper">
+        <ul id="menu">
+          <img id="BusinessLogs" src="../Images/NekoTech.png">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../About.html">About Us</a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+            <ul>
+              <li>
+                <a href="comphardwaregraph.html">Graphicscard</a>
+              </li>
+              <li>
+                <a href="comphardwareheadp.html">Headphone</a>
+              </li>
+              <li>
+                <a href="comphardwarekeyb.html">Keyboard</a>
+              </li>
+              <li>
+                <a href="comphardwaremou.html">Mouse</a>
+              </li>
+              <li>
+                <a href="comphardwarepctower.html">Cases</a>
+              </li>
+              <li>
+                <a href="comphardwarepros.html">Processor</a>
+              </li>
+              <li>
+                <a href="comphardwareram.html">RAM</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="../Shop.html">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="seation">
+      <div class="containers">
+        <!-- Full-width ../images with number text -->
+        <div class="mySlides">
+          <div class="box box1">
+            <h3 style="color: red;">Motherboard</h3>
+          </div>
+          <img src="../Images/motherboard (1).png" class="imge1">
+          <br>
+          <p>NekoCore Pro: This high-end motherboard features a sleek neko-inspired design with metallic accents and glowing LED lights. It offers support for the latest Intel or AMD processors, with up to 128GB of DDR4 memory and multiple M.2 SSD slots for lightning-fast storage. The motherboard also includes advanced features like built-in Wi-Fi and Bluetooth, Thunderbolt 4 ports for fast data transfer, and customizable RGB lighting for a personalized look.</p>
+        </div>
+        <div class="mySlides">
+          <div class="box box1">
+            <h3 style="color: red;">Motherboard</h3>
+          </div>
+          <img src="../Images/motherboard (2).png" class="imge1">
+          <br>
+          <p>PurrfectTech Mini-ITX: This compact motherboard features a cute neko design with a pink and white color scheme. It offers support for the latest Intel or AMD processors, with up to 32GB of DDR4 memory and a PCIe 4.0 M.2 SSD slot for fast storage. The motherboard also includes built-in Wi-Fi and Bluetooth, a USB Type-C port for easy connectivity, and customizable RGB lighting for a fun, personalized touch. </p>
+        </div>
+        <div class="mySlides">
+          <div class="box box1">
+            <h3 style="color: red;">Motherboard</h3>
+          </div>
+          <img src="../Images/motherboard (3).png" class="imge1">
+          <br>
+          <p>MeowBoard Ultra: This cutting-edge motherboard features a playful neko design with bright, colorful accents and cat ears on the heat sinks. It offers support for the latest Intel or AMD processors, with up to 64GB of DDR4 memory and multiple PCIe 4.0 slots for high-speed expansion. The motherboard also includes advanced features like 10G Ethernet and Wi-Fi 6, high-fidelity audio with ESS Sabre Hi-Fi DAC, and advanced cooling technology for optimal performance.</p>
+        </div>
+        <button id="scroll-to-top">&#8593;</button>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+        <!-- Thumbnail ../images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="../Images/motherboard (1).png" style="width:100%" onclick="currentSlide(1)" alt="NekoCore Pro">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../Images/motherboard (2).png" style="width:100%" onclick="currentSlide(2)" alt="PurrfectTech Mini-ITX">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../Images/motherboard (3).png" style="width:100%" onclick="currentSlide(3)" alt="MeowBoard Ultra">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="footer"> &copy; My Website 2023 </div>
+    <script src="../jscl/upb.js"></script>
+    <script src="../jscl/animation.js"></script>
+  </body>
+</html>

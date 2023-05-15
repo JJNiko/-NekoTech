@@ -1,0 +1,40 @@
+body {
+	font-family: Arial, sans-serif;
+  }
+  .circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin-left: 10px;
+margin-right: 20px;
+	float: left;
+  }
+
+.circl {
+  border-radius: 64%;
+  width: 172px;
+  height: 217px;
+  overflow: hidden;
+  margin-left: 19px;
+  margin-right: 20px;
+  float: left;
+  margin-bottom: 37px;
+  margin-top: -16px;
+}
+  img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+  }
+  .circ {
+    border-radius: 64%;
+    width: 172px;
+    height: 217px;
+    overflow: hidden;
+    margin-left: 19px;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 37px;
+    margin-top: -16px;
+  }

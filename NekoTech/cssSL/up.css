@@ -1,0 +1,15 @@
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 158px;
+  right: 70px;
+  z-index: 999;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 21px;
+  border-radius: 18%;
+  }
+  
