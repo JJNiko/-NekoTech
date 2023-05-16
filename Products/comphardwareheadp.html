@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>NekoTech Computers</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+    <link rel="stylesheet" href="transision.css">
+    <link rel="stylesheet" href="../cssSL/style.css">
+    <link rel="stylesheet" href="../cssSL/Circle.css">
+    <link rel="stylesheet" href="../cssSL/slides.css">
+    <link rel="stylesheet" href="../cssSL/slideshow.css">
+    <link rel="stylesheet" href="../cssSL/Layout.css">
+    <link rel="stylesheet" href="../cssSL/transision.css">
+    <link rel="stylesheet" href="../cssSL/up.css">
+    <script src="../jscl/Sliderjs.js" defer></script>
+    <script src="../jscl/Sliding.js" defer></script>
+  </head>
+  <body>
+    <div class="loader loader--active">
+      <div class="loader__icon">
+        <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+          <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+          <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+          <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+        </svg>
+      </div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+    </div>
+    <div id="container">
+      <div class="wrapper">
+        <ul id="menu">
+          <img id="BusinessLogs" src="../Images/NekoTech.png">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../About.html">About Us</a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+            <ul>
+              <li>
+                <a href="compbuilds.html">Computer Setup</a>
+              </li>
+              <li>
+                <a href="comphardwaregraph.html">Graphicscard</a>
+              </li>
+              <li>
+                <a href="comphardwarekeyb.html">Keyboard</a>
+              </li>
+              <li>
+                <a href="comphardwaremoth.html">Motherboard</a>
+              </li>
+              <li>
+                <a href="comphardwaremou.html">Mouse</a>
+              </li>
+              <li>
+                <a href="comphardwarepctower.html">Towers</a>
+              </li>
+              <li>
+                <a href="comphardwarepros.html">Processor</a>
+              </li>
+              <li>
+                <a href="comphardwareram.html">RAM</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="../Shop.html">Shop</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="seation">
+      <div class="containers">
+        <!-- Full-width ../images with number text -->
+        <div class="mySlides">
+          <div class="box box1">
+            <h3 style="color: red;">Headphone</h3>
+          </div>
+          <img src="../Images/headphone (1).png" class="imge1">
+        </div>
+        <br>
+        <p>NekoTunes Pro: These high-end headphones feature a neko-inspired design with cat ears on the headband and sleek, metallic accents. They offer a frequency response of 500Hz to 400kHz, with 70mm drivers for powerful, clear sound.</p>
+      </div>
+      <div class="mySlides">
+        <div class="box box1">
+          <h3 style="color: red;">Headphone</h3>
+        </div>
+        <img src="../Images/headphone (2).png" class="imge1">
+        <br>
+        <p>MeowMix Lite: These stylish, affordable headphones feature a playful neko design with cat ears and colorful accents. They offer a frequency response of 90Hz to 500kHz, with 60mm drivers for balanced, detailed sound.</p>
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <button id="scroll-to-top">&#8593;</button>
+      <!-- ../Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+      <!-- Thumbnail ../images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="../Images/headphone (1).png" style="width:100%" onclick="currentSlide(1)" alt="NekoTunes Pro">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../Images/headphone (2).png" style="width:100%" onclick="currentSlide(2)" alt="MeowMix Lite">
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="footer"> &copy; My Website 2023 </div>
+    <script src="../jscl/upb.js"></script>
+    <script src="../jscl/animation.js"></script>
+  </body>
+</html>

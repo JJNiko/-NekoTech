@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>NekoTech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+    <link rel="stylesheet" href="transision.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="cssSL/dropt.css">
+    <link rel="stylesheet" href="ccssSL/style.css">
+    <link rel="stylesheet" href="cssSL/transision.css">
+    <link rel="stylesheet" href="cssSL/up.css">
+  </head>
+  <body>
+    <div class="loader loader--active">
+      <div class="loader__icon">
+        <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+          <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+          <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+          <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+        </svg>
+      </div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+      <div class="loader__tile"></div>
+    </div>
+    <div class="dropdown">
+      <!--   end of cart modal -->
+      <div class="cart-btn">
+        <i id="cart" class="fas fa-shopping-cart"></i>
+        <span class="cart-quantity">0</span>
+      </div>
+    </div>
+    <header id="up" class="intro">
+      <h1>Welcome to the NekoTech Shop!</h1>
+      <p>Choice your purchase Products here.</p>
+      <div class="action">
+        <a href="index.html" title="To index" class="btn back">Back to Home</a>
+        <a href="Products/compbuilds.html" title="To computer Hardware" class="btn back">Back to Products</a>
+      </div>
+    </header>
+    <main>
+      <div class="cart-modal-overlay">
+        <div class="cart-modal">
+          <i id="close-btn" class="fas fa-times"></i>
+          <h1 class="cart-is-empty">Cart is empty</h1>
+          <div class="product-rows"></div>
+          <div class="total">
+            <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">$0</span>
+            <button class="purchase-btn">PURCHASE</button>
+          </div>
+        </div>
+      </div>
+      <button>
+        <a href="#grhapics">GPU</a>
+      </button>
+      <button>
+        <a href="#Head">HEADPHONES</a>
+      </button>
+      <button>
+        <a href="#keybrd">KEYBOARDS</a>
+      </button>
+      <button>
+        <a href="#mother">MOTHERBOARD</a>
+      </button>
+      <button>
+        <a href="#mous">MOUSE</a>
+      </button>
+      <button>
+        <a href="#tow">TOWERS</a>
+      </button>
+      <button>
+        <a href="#pro">PROCESSOR</a>
+      </button>
+      <button>
+        <a href="#ram">RAM</a>
+      </button>
+      <button id="scroll-to-top">&#8593;</button>
+      <!--  products  -->
+      <h1 id="grhapics">
+        <a href="Products/comphardwaregraph.html">GRAPHICS CARD</a>
+      </h1>
+      <div class="items-container">
+        <div class="card-1 card">
+          <img class="product-image" src="Images/graphicscard (1).png" alt="">
+          <button class="add-to-cart">Add to cart</button>
+          <p class="product-despt"> NekoXtreme 16GBX:This graphics card features 16GB of GDDR6 memory and a high-performance chipset, making it perfect for demanding applications like gaming and video editing. </p>
+          <span class="product-price">$1395</span>
+        </div>
+        <div class="card-2 card">
+          <img class="product-image" src="Images/graphicscard (2).png" alt="">
+          <p class="product-despt"> MeowMega 8GB+: With 8GB or more of memory, the MeowMega graphics card is designed to handle even the most complex workloads.</p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1175</span>
+        </div>
+        <div class="card-3 card">
+          <img class="product-image" src="Images/graphicscard (3).png" alt="">
+          <p class="product-despt"> Purrformance 12GBX: This graphics card is all about performance, with 12GB of memory and advanced features like ray tracing and AI acceleration. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1150</span>
+        </div>
+        <div class="card-4 card">
+          <img class="product-image" src="Images/graphicscard (4).png" alt="">
+          <p class="product-despt"> Purrformance 12GBX: This graphics card is all about performance, with 12GB of memory and advanced features like ray tracing and AI acceleration. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1575</span>
+        </div>
+        <div class="card-5 card">
+          <img class="product-image" src="Images/graphicscard (5).png" alt="">
+          <p class="product-despt"> FurryForce 10GBX: This graphics card combines power and style, with 10GB of memory and a striking neko design. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+      </div>
+      <br>
+      <h1 id="Head">
+        <a href="Products/comphardwareheadp.html">HEADPHONE</a>
+      </h1>
+      <br>
+      <div class="items-container">
+        <div class="card-1 card">
+          <img class="product-image" src="Images/headphone (1).png" alt="">
+          <p class="product-despt"> NekoTunes Pro: These high-end headphones feature a neko-inspired design with cat ears on the headband and sleek, metallic accents. They offer a frequency response of 500Hz to 400kHz, with 70mm drivers for powerful, clear sound. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-2 card">
+          <img class="product-image" src="Images/headphone (2).png" alt="">
+          <p class="product-despt">MeowMix Lite: These stylish, affordable headphones feature a playful neko design with cat ears and colorful accents. They offer a frequency response of 90Hz to 500kHz, with 60mm drivers for balanced, detailed sound. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+      </div>
+      <h1 id="keybrd">
+        <a href="Products/comphardwarekeyb.html">KEYBOARD</a>
+      </h1>
+      <div class="items-container">
+        <div class="card-1 card">
+          <img class="product-image" src="Images/keyboard (1).png" alt="">
+          <p class="product-despt">ClawControl TKL: This tenkeyless keyboard features a fierce neko design with glowing red eyes and sharp claws. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-2 card">
+          <img class="product-image" src="Images/keyboard (2).png" alt="">
+          <p class="product-despt">MeowBoard Pro: This professional-grade keyboard features a minimalist neko design with a black and white color scheme. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-3 card">
+          <img class="product-image" src="Images/keyboard (3).png" alt="">
+          <p class="product-despt">FurryFlex Full-Size: This full-size keyboard features a playful neko design with a furry texture and bright, colorful accents. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-4 card">
+          <img class="product-image" src="Images/keyboard (4).png" alt="">
+          <p class="product-despt">NekoStrike Elite: This high-end gaming keyboard features a neko design with cat ears and a sleek, metallic finish.</p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-5 card">
+          <img class="product-image" src="Images/keyboard (5).png" alt="">
+          <p class="product-despt"> PurrfectType Mini: This compact keyboard features a cute neko design with a pink and white color scheme. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-6 card">
+          <img class="product-image" src="Images/keyboard (6).png" alt="">
+          <p class="product-despt"> WhiskerWiz Wireless: This wireless keyboard features a whimsical neko design with cat ears and a fluffy tail. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+      </div>
+      <h1 id="mother">
+        <a href="Products/comphardwaremoth.html">MOTHERBOARD</a>
+      </h1>
+      <div class="items-container">
+        <div class="card-1 card">
+          <img class="product-image" src="Images/motherboard (1).png" alt="">
+          <p class="product-despt">NekoCore Pro: This high-end motherboard features a sleek neko-inspired design with metallic accents and glowing LED lights. It offers support for the latest Intel or AMD processors, with up to 128GB of DDR4 memory and multiple M.2 SSD slots for lightning-fast storage.</p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-2 card">
+          <img class="product-image" src="Images/motherboard (2).png" alt="">
+          <p class="product-despt">PurrfectTech Mini-ITX: This compact motherboard features a cute neko design with a pink and white color scheme. It offers support for the latest Intel or AMD processors, with up to 32GB of DDR4 memory and a PCIe 4.0 M.2 SSD slot for fast storage.</p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-3 card">
+          <img class="product-image" src="Images/motherboard (3).png" alt="">
+          <p class="product-despt">MeowBoard Ultra: This cutting-edge motherboard features a playful neko design with bright, colorful accents and cat ears on the heat sinks. It offers support for the latest Intel or AMD processors, with up to 64GB of DDR4 memory and multiple PCIe 4.0 slots for high-speed expansion. </p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+      </div>
+      <h1 id="mous">
+        <a href="Products/comphardwaremou.html">MOUSE</a>
+      </h1>
+      <div class="items-container">
+        <div class="card-1 card">
+          <img class="product-image" src="Images/mouse (1).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-2 card">
+          <img class="product-image" src="Images/mouse (2).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-3 card">
+          <img class="product-image" src="Images/mouse (3).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-4 card">
+          <img class="product-image" src="Images/mouse (4).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-5 card">
+          <img class="product-image" src="Images/mouse (5).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-6 card">
+          <img class="product-image" src="Images/mouse (6).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-7 card">
+          <img class="product-image" src="Images/mouse (7).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+      </div>
+      <h1 id="tow">
+        <a href="Products/comphardwarepctower.html ">TOWER</a>
+      </h1>
+      <div class="items-container">
+        <div class="card-1 card">
+          <img class="product-image" src="Images/TowerPc (1).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-2 card">
+          <img class="product-image" src="Images/TowerPc (2).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-3 card">
+          <img class="product-image" src="Images/TowerPc (3).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-4 card">
+          <img class="product-image" src="Images/TowerPc (4).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+      </div>
+      <h1 id="pro">
+        <a href="Products/comphardwaremou.html">PROCESSOR</a>
+      </h1>
+      <div class="items-container">
+        <div class="card-1 card">
+          <img class="product-image" src="Images/processor (1).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-2 card">
+          <img class="product-image" src="Images/processor (2).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-3 card">
+          <img class="product-image" src="Images/processor (3).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-4 card">
+          <img class="product-image" src="Images/processor (4).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+      </div>
+      <h1 id="ram">
+        <a href="Products/comphardwaremou.html">RAM</a>
+      </h1>
+      <div class="items-container">
+        <div class="card-1 card">
+          <img class="product-image" src="Images/ram (1).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-2 card">
+          <img class="product-image" src="Images/ram (2).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-3 card">
+          <img class="product-image" src="Images/ram (3).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-4 card">
+          <img class="product-image" src="Images/ram (4).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-5 card">
+          <img class="product-image" src="Images/ram (5).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+        <div class="card-6 card">
+          <img class="product-image" src="Images/ram (6).png" alt="">
+          <p class="product-despt"></p>
+          <button class="add-to-cart">Add to cart</button>
+          <span class="product-price">$1230</span>
+        </div>
+      </div>
+    </main>
+    <footer class="credit">&copy; My Website 2023 <a title="Awesome web design code & scripts" href="https://www.facebook.com/messingwithmynickname/" target="_blank">NekoTech</a>
+    </footer>
+    <script src="jscl/upb.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="jscl/animation.js"></script>
+    <script src="jscl/Droper.js"></script>
+  </body>
+</html>
